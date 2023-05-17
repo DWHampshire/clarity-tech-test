@@ -9,5 +9,5 @@ spring:
     generate-ddl: true
     hibernate:
       #Set to create for initial table creation
-      #ddl-auto: update
-      ddl-auto: create
+      ddl-auto: update
+      #ddl-auto: create
