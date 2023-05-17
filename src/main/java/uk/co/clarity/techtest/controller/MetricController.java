@@ -1,6 +1,5 @@
 package uk.co.clarity.techtest.controller;
 
-import org.postgresql.util.PSQLException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +7,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import uk.co.clarity.techtest.metric.Metric;
+import uk.co.clarity.techtest.model.Metric;
 import uk.co.clarity.techtest.dao.MetricDao;
 
 import java.util.List;

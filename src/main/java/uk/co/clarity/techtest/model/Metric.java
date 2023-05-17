@@ -1,4 +1,4 @@
-package uk.co.clarity.techtest.metric;
+package uk.co.clarity.techtest.model;
 
 import lombok.Data;
 
